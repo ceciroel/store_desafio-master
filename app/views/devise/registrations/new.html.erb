@@ -26,6 +26,11 @@
     <%= f.number_field :age %>
   </div>
 
+  <div class="field">
+    <%= f.label :avatars %><br />
+    <%= f.file_field :avatars, multiple: true %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Sign up" %>
   </div>
