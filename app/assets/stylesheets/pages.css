@@ -1,0 +1,128 @@
+/* google font*/
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+/* styles.css */
+html,
+body {
+    height: 100%;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/* images */
+
+img {
+    max-width: 100%;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+
+/* brandedme image */
+.borderadius {
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: white;
+    max-width:100px;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/* cover */
+
+#cover {
+    background: #222 url('vendor/assets/img/backgroundcover.png') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+
+#cover-caption {
+    width: 100%;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.section-content {
+    padding: 5rem 0;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.nav-down{
+	color:white;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.nav-up{
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* portafolio */
+
+#portafolio {
+    background-color: #20232D;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+/* carousel */
+
+#carousel {
+    background-color: black;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.cover-img{
+	float:left;
+}
+
+/* contact form */
+.input-group{
+	    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+
+/* contact section */
+
+#contact{
+    background: url('vendor/assets/img/backgroundcontact.png')center center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding-top: 1em;
+}
+
+
+/*contact section text*/
+
+.contact-text {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 3rem;
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+/*social*/
+.social{
+	padding: 1.8em;
+	font-family: 'Quattrocento Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+

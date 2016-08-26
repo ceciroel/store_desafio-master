@@ -8,4 +8,12 @@ class PagesController < ApplicationController
 
   def private
   end
+
+  def portafolio
+  end
+
+  def contact
+  end
+
+
 end

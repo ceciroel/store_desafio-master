@@ -12,4 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require_turbolinks
+ 
  */
+
+
+/* google font*/
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
