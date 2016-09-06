@@ -1,6 +1,9 @@
 
 
-img = "https://images6.alphacoders.com/335/335979.png";
+img = "<%= asset_path 'backgroundcover.png' %>";
+
+
+
 $(document).on('turbolinks:load', function(){
 	$.backstretch(img)
 });

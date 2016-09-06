@@ -1,4 +1,21 @@
 Rails.application.configure do
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default :charset => "utf-8"
+
+  ActionMailer::Base.smtp_settings = {
+    :port           => 587,
+    :address        => 'smtp.mailgun.org',
+    :user_name      => 'postmaster@sandbox513a36b713c94063bef651c0ba86e914.mailgun.org',
+    :password       => '7c9a1b37c9fb15aaf2244fc255ffa8a2',
+    :domain         => 'sandbox513a36b713c94063bef651c0ba86e914.mailgun.org',
+    :authentication => :plain,
+  }
+  ActionMailer::Base.delivery_method = :smtp
+
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
