@@ -27,7 +27,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'paypal-sdk-rest'
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'mini_magick'
-gem "fog-aws"
+gem 'fog-aws'
+gem 'activeadmin', github: 'activeadmin'
+gem 'meta_search', '>= 1.1.0.pre'
+gem 'active_skin'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -30,7 +30,6 @@ img {
 /* cover */
 
 #cover {
-    background: #222 url('vendor/assets/img/backgroundcover.png') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
@@ -38,6 +37,7 @@ img {
     display: flex;
     align-items: center;
     font-family: 'Quattrocento Sans', sans-serif;
+    
 }
 
 
@@ -48,8 +48,9 @@ img {
 }
 
 .section-content {
-    padding: 5rem 0;
+    padding: 3rem 0;
     font-family: 'Quattrocento Sans', sans-serif;
+
 }
 
 .nav-down{
@@ -72,6 +73,8 @@ img {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
     font-family: 'Quattrocento Sans', sans-serif;
+    padding: 3em;
+    
 }
 
 
