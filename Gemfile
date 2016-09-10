@@ -29,7 +29,6 @@ gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'mini_magick'
 gem 'fog-aws'
 gem 'activeadmin', github: 'activeadmin'
-gem 'meta_search', '>= 1.1.0.pre'
 gem 'active_skin'
 
 
