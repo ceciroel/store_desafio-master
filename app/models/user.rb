@@ -6,6 +6,9 @@ class User < ActiveRecord::Base
          :omniauthable, omniauth_providers: [:facebook]
   after_create :send_notification
 
+  has_many :projects
+  has_many :products
+
 def self.find_for_facebook_oauth(auth)
 	user = User.where(provider: auth.provider, uid: auth.uid).first
 	# The User was found in our database

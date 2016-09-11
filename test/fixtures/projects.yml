@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_id: 1
+  project_name: MyString
+  client_name: MyString
+  user_email: MyString
+  creation_date: 2016-09-10 18:47:16
+  due_date: 2016-09-10 18:47:16
+  problem: MyText
+  objective: MyText
+  target_market: MyText
+  business_description: MyText
+  project_description: MyText
+  expected_results: MyText
+  important_notes: MyText
+
+two:
+  product_id: 1
+  project_name: MyString
+  client_name: MyString
+  user_email: MyString
+  creation_date: 2016-09-10 18:47:16
+  due_date: 2016-09-10 18:47:16
+  problem: MyText
+  objective: MyText
+  target_market: MyText
+  business_description: MyText
+  project_description: MyText
+  expected_results: MyText
+  important_notes: MyText
