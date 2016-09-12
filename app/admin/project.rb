@@ -6,6 +6,7 @@ ActiveAdmin.register Project do
 # permit_params :list, :of, :attributes, :on, :model
 
 
+
 # or
 #
 # permit_params do
@@ -15,5 +16,6 @@ ActiveAdmin.register Project do
 # end
 
 
+ 
 
 end
