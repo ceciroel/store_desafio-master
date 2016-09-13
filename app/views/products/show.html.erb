@@ -20,9 +20,7 @@
   <%= @product.sale_date %>
 </p>
 
-<% @user.avatars.each do |avatar| %>
-	<%= image_tag avatar.url, :width => 100, :height => 100 %>
-<% end %>
+
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
 <%= link_to 'Back', products_path %>

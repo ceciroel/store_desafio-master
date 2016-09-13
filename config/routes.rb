@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   resources :products
   get 'pages/home'
@@ -10,6 +11,10 @@ Rails.application.routes.draw do
   get 'pages/portafolio'
 
   get 'pages/contact'
+
+  get 'products'
+
+  get 'admin/dashboard'
 
 
 
