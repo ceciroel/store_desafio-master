@@ -48,7 +48,7 @@
 
 
 
-       <!-- CONTACT PAGE -->
+       <!-- CONTACT PAGE 
         <li 
           <% if params[:controller] == "pages" && params[:action] == "contact"%>
           class="active"
@@ -58,6 +58,8 @@
             Contact
           </a>
         </li>
+    
+-->
     
       </ul>
 
@@ -78,12 +80,11 @@
           <ul class="dropdown-menu">
 <li><a href="<%= new_user_session_path %>">Login</a></li>
           <li role="separator" class="divider"></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Quotes</a></li>
-            <li><a href="#">Tasks</a></li>
+            <li><a href="<%= admin_projects_url %>">Projects</a></li>
+            <li><a href="<%= admin_quotes_url %>">Quotes</a></li>
+            <li><a href="<%= admin_tasks_url %>">Tasks</a></li>
             <li><a href="#">Payments</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Logout</a></li>
+            
 
           </ul>
 

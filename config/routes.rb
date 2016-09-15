@@ -12,9 +12,9 @@ Rails.application.routes.draw do
 
   get 'pages/contact'
 
-  get 'products'
+  
 
-  get 'admin/dashboard'
+
 
 
 
